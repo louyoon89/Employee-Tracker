@@ -115,7 +115,7 @@ const addDept = () => {
         },
         (err, res) => {
           if (err) throw err;
-          console.log(`\n New Department Added! \n`);
+          console.log(`\n Department Added! \n`);
           startSearch();
         }
       );
@@ -159,7 +159,7 @@ const addRole = () => {
           },
           (err, res) => {
             if (err) throw err;
-            console.log(`\n Successfully added to the database! \n`);
+            console.log(`\n Role Added! \n`);
             startSearch();
           }
         );
