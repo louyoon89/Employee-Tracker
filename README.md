@@ -69,15 +69,20 @@ All Acceptance criteria have been mets
 
 
 ## Screenshots
-* Landing Page
-![Screenshot of application]
-* Note Taker Default Page
-![Screenshot of application]
-* Note Taker Sample (Initial Test Delete, New Notes Added)
-![Screenshot of application]
-* Command Line Console Logs:
-![Screenshot of application](./assets/screenshots/sc4.png)
+* Application Start
+![Screenshot of application](./assets/sc/sc1.png)
+* View All Departments
+![Screenshot of application](./assets/sc/sc2.png)
+* View All Roles
+![Screenshot of application](./assets/sc/sc3.png)
+* View All Employees
+![Screenshot of application](./assets/sc/sc4.png)
+* Add Department, Add Role, Add Employee
+![Screenshot of application](./assets/sc/sc5.png)
+* Update Role & Option to Exit
+![Screenshot of application](./assets/sc/sc6.png)
 
 ## Demo
+
 
 
