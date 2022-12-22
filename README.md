@@ -20,14 +20,14 @@ Create a Content Management System (CMS) by building a command-line application 
 
 Clone Repository and install dependency packages by running the following command line:
 
-- Install Dependencies using "npm i"
+* Install Dependencies using "npm i"
 ```
-* npm i inquirer@8.2.4
-* npm i mysql2
-* npm i console.table
+- npm i inquirer@8.2.4
+- npm i mysql2
+- npm i console.table
 ```
 
-Run application using "node."
+* Run application using "node."
 ```
 - node server.js
 ```
