@@ -25,7 +25,7 @@ SO THAT I can organize and plan my business
 ```
 ## Installation
 
-Clone Repository and install dependency packages by running the following command line:
+Clone Repository and install dependency packages before starting application running the following command lines:
 
 * Install Dependencies using "npm i"
 ```
