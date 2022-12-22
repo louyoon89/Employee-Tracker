@@ -129,7 +129,6 @@ const addRole = () => {
       name: department.name,
       value: department.id,
     }));
-    if (err) throw err;
     inquirer
       .prompt([
         {
@@ -171,7 +170,6 @@ const addRole = () => {
 const addEmployee = () => {
   connection.query(`SELECT * FROM role`, (err, res) => {
     let roles = res.map((role) => ({ name: role.title, value: role.id }));
-    if (err) throw err;
     connection.query(`SELECT * FROM employee`, (err, res) => {
       let employee = res.map((employee) => ({
         name: employee.first_name + " " + employee.last_name,
@@ -226,14 +224,13 @@ const addEmployee = () => {
 const updateRole = () => {
   connection.query(`SELECT * FROM role;`, (err, res) => {
     let roles = res.map((role) => ({ name: role.title, value: role.id }));
-    if (err) throw err;
 
     connection.query(`SELECT * FROM employee;`, (err, res) => {
       let employee = res.map((employee) => ({
         name: employee.first_name + " " + employee.last_name,
         value: employee.id,
       }));
-      if (err) throw err;
+
       inquirer
         .prompt([
           {
@@ -249,6 +246,7 @@ const updateRole = () => {
             choices: roles,
           },
         ])
+
         .then((res) => {
           console.log(res);
           connection.query(
