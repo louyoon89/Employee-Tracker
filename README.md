@@ -69,18 +69,18 @@ All Acceptance criteria have been mets
 
 
 ## Screenshots
-* Application Start
-![Screenshot of application](./assets/sc/sc1.png)
-* View All Departments
-![Screenshot of application](./assets/sc/sc2.png)
-* View All Roles
-![Screenshot of application](./assets/sc/sc3.png)
-* View All Employees
-![Screenshot of application](./assets/sc/sc4.png)
-* Add Department, Add Role, Add Employee
-![Screenshot of application](./assets/sc/sc5.png)
-* Update Role & Option to Exit
-![Screenshot of application](./assets/sc/sc6.png)
+* Application Start<br>
+![Screenshot of application](./assets/sc/sc1.png)<br>
+* View All Departments<br>
+![Screenshot of application](./assets/sc/sc2.png)<br>
+* View All Roles<br>
+![Screenshot of application](./assets/sc/sc3.png)<br>
+* View All Employees<br>
+![Screenshot of application](./assets/sc/sc4.png)<br>
+* Add Department, Add Role, Add Employee<br>
+![Screenshot of application](./assets/sc/sc5.png)<br>
+* Update Role & Option to Exit<br>
+![Screenshot of application](./assets/sc/sc6.png)<br>
 
 ## Demo
 
